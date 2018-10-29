@@ -1,8 +1,7 @@
 // Copyright © 2012-2013 Lawrence E. Bakst. All rights reserved.
 
-package hrff_test
+package hrff
 
-import . "leb.io/hrff"
 import "flag"
 import "fmt"
 import "testing"
@@ -165,13 +164,6 @@ func Example013() {
 	// Output: v=-1,234,567
 }
 
-<<<<<<< HEAD
-func Example015() {
-	var v = Float64{0, "B"}
-	fmt.Printf("v=%h\n", v)
-	// Output: v=0 B
-}
-=======
 func Example014() {
 	fmt.Printf("%h\n", Int64{V: 0, U: "foobars"})
 	// Output: 0 foobars
